@@ -23,13 +23,12 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
+				<version>3.3.2</version>
 				<extensions>true</extensions>
 				<configuration>
 				    <cloudHubDeployment>
+				    <uri>https://anypoint.mulesoft.com</uri>
 		            <muleVersion>4.2.2</muleVersion>
-		            <workers>1</workers>
-		            <workerType>Micro</workerType>
 		            <username>just4saa</username>
 		            <password>Mule12345!</password>
 		            <applicationName>jenkins-demo</applicationName>
