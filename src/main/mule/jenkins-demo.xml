@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="jenkins-demoFlow" doc:id="fd3d6ddf-28ef-48e8-b542-2a49890d6d82" >
 		<http:listener doc:name="Listener" doc:id="241a0a59-bc88-4b7b-8888-5b5d0d1cf30c" config-ref="HTTP_Listener_config" path="/jenkinsjob"/>
-		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="6cc858af-51a8-4d25-bd94-117342c08576" />
+		<set-payload value="Jenkins demo project" doc:name="Set Payload" doc:id="6cc858af-51a8-4d25-bd94-117342c08576" />
 	</flow>
 </mule>
