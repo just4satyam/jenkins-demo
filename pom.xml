@@ -29,14 +29,13 @@
 				    <cloudHubDeployment>
 		            <uri>https://anypoint.mulesoft.com</uri>
 		            <muleVersion>4.2.2</muleVersion>
+		            <workers>1</workers>
+		            <workerType>Micro</workerType>
 		            <username>just4saa</username>
 		            <password>Mule12345!</password>
 		            <applicationName>jenkins-demo</applicationName>
 		            <environment>Sandbox</environment>
-		            <properties>
-		                <key>value</key>
-		            </properties>
-		        </cloudHubDeployment>
+		            </cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
